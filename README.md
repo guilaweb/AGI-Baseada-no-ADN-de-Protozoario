@@ -40,6 +40,28 @@ pip install biopython
 PyMOL e Rosetta: Siga a documentação oficial para instalação e configuração:
 PyMOL Installation Guide
 Rosetta Installation Guide
+
+Estrutura de Diretórios
+A estrutura de diretórios do seu projeto pode ser assim:
+
+protozoario_simulation/
+│
+├── generate_data.py
+├── build_model.py
+├── train_model.py
+└── predict_model.py
+
+Como Executar
+Gerar Dados e Treinar o Modelo:
+Execute train_model.py para gerar os dados fictícios e treinar o modelo.
+
+python train_model.py
+Fazer Previsões:
+Execute predict_model.py para fazer previsões com o modelo treinado.
+
+python predict_model.py
+
+
 Contribuição:
 
 Contribuições são bem-vindas! Para contribuir com o projeto, por favor:
